@@ -10,7 +10,7 @@
 <body>
     <header>
 
-        <h1 id="title">Survey form</h1>
+        <h1 id="title">Optima Survey</h1>
 
     </header>
 
@@ -28,7 +28,7 @@
 
         <label id="email-label">* Email:</label>
 
-        <input type="text" id="email" placeholder="Enter your email" class="input-field" class="right" required>
+        <input type="email" id="email" placeholder="Enter your email" class="input-field" class="right" required>
 
         <br>
 
@@ -64,6 +64,12 @@
             <li><label><input value="2" type="checkbox">Wizard</label></li>
             <li><label><input value="3" type="checkbox">Engineer</label></li>
         </ul>
+
+            <label>Any comments or suggestions?</label>
+        <textarea placeholder="Enter your comment here" name="comment" style="height: 50px;resize:vertical;"></textarea>
+
+        <br>
+        <button type="submit" id="submit">Submit</button>
 
     </form>
 

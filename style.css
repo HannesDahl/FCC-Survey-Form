@@ -11,5 +11,12 @@
 }
 
 .right {
+    display: flex;
+    justify-content: flex-end;
+    text-align: left;
+}
 
+.left {
+    display: flex;
+    justify-content: flex-start;
 }
