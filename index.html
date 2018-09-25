@@ -9,22 +9,64 @@
 </head>
 <body>
     <header>
+
         <h1 id="title">Survey form</h1>
+
     </header>
+
     <section>
-    <p id="description">Vad tycker du om datanom utbildningen?</p>
+
+    <p id="description">Let us know how we can improve Optima</p>
+
     <form id="survey-form">
-        <label id="name-label">* Namn:</label>
-        <input type="text" id="name" placeholder="Ditt namn" class="input-field" required>
+
+        <label id="name-label">* Name:</label>
+
+        <input type="text" id="name" placeholder="Enter your name" class="input-field" class="right" required>
+
         <br>
-        <label id="email-label">* E-post:</label>
-        <input type="text" id="email" placeholder="Din e-post" class="input-field" required>
+
+        <label id="email-label">* Email:</label>
+
+        <input type="text" id="email" placeholder="Enter your email" class="input-field" class="right" required>
+
         <br>
-        <label id="number-label">* Ålder:</label>
-        <input type="number" id="number" placeholder="Din ålder" min="0" max="125" class="input-field" required>
+
+        <label id="number-label">* Age:</label>
+
+        <input type="number" id="number" placeholder="Enter your age" min="0" max="125" class="input-field" class="right" required>
+
         <br>
-        <label
-        <select name="" id=""></select>
+
+        <label>Which option best describes your current role?</label>
+
+        <select name="optimarole" id="dropdown" class="right">
+            <option value="0" disabled value>Select an option</option>
+            <option value="1">Student</option>
+            <option value="2">Teacher</option>
+            <option value="3">Staff</option>
+        </select>
+
+        <br>
+
+        <label class="left">* How likely is that you would recommend Optima to a friend?</label>
+
+        <ul style="list-style: none;" class="right">
+            <li><input name="radio-buttons" value="1" type="radio"<label>Yes</label></li>
+            <li><input name="radio-buttons" value="2" type="radio"<label>Mayby</label></li>
+            <li><input name="radio-buttons" value="3" type="radio"<label>No</label></li>
+        </ul>
+
+        <label class="left" for="preferences">What kind of education should we add?</label>
+
+        <ul style="list-style: none;" class="right">
+            <li><label><input value="1" type="checkbox">Pilot education</label></li>
+            <li><label><input value="2" type="checkbox">Wizard</label></li>
+            <li><label><input value="3" type="checkbox">Engineer</label></li>
+        </ul>
+
+    </form>
+
 </section>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
