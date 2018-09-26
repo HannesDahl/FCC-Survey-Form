@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Survey form</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
 </head>
 <body>
     <header>
@@ -16,62 +17,68 @@
 
     <section>
 
-    <p id="description">Let us know how we can improve Optima</p>
+        <p id="description">Let us know how we can improve Optima</p>
 
-    <form id="survey-form">
+        <form id="survey-form">
 
-        <label id="name-label">* Name:</label>
+            <label id="name-label">* Name:</label>
 
-        <input type="text" id="name" placeholder="Enter your name" class="input-field" class="right" required>
+            <br>
 
-        <br>
+            <input type="text" id="name" placeholder="Enter your name" class="input-field" class="right" required>
 
-        <label id="email-label">* Email:</label>
+            <br><br>
 
-        <input type="email" id="email" placeholder="Enter your email" class="input-field" class="right" required>
+            <label id="email-label">* Email:</label>
 
-        <br>
+            <br>
 
-        <label id="number-label">* Age:</label>
+            <input type="email" id="email" placeholder="Enter your email" class="input-field" class="right" required>
 
-        <input type="number" id="number" placeholder="Enter your age" min="0" max="125" class="input-field" class="right" required>
+            <br><br>
 
-        <br>
+            <label id="number-label">* Age:</label>
 
-        <label>Which option best describes your current role?</label>
+            <br>
 
-        <select name="optimarole" id="dropdown" class="right">
-            <option value="0" disabled value>Select an option</option>
-            <option value="1">Student</option>
-            <option value="2">Teacher</option>
-            <option value="3">Staff</option>
-        </select>
+            <input type="number" id="number" placeholder="Enter your age" min="0" max="125" class="input-field" class="right" required>
 
-        <br>
+            <br><br><div class="line"></div><br>
 
-        <label class="left">* How likely is that you would recommend Optima to a friend?</label>
+            <label>Which option best describes your current role?</label>
 
-        <ul style="list-style: none;" class="right">
-            <li><input name="radio-buttons" value="1" type="radio"<label>Yes</label></li>
-            <li><input name="radio-buttons" value="2" type="radio"<label>Mayby</label></li>
-            <li><input name="radio-buttons" value="3" type="radio"<label>No</label></li>
-        </ul>
+            <select name="optimarole" id="dropdown">
+                <option value="0" disabled value>Select an option</option>
+                <option value="1">Student</option>
+                <option value="2">Teacher</option>
+                <option value="3">Staff</option>
+            </select>
 
-        <label class="left" for="preferences">What kind of education should we add?</label>
+            <br><br>
 
-        <ul style="list-style: none;" class="right">
-            <li><label><input value="1" type="checkbox">Pilot education</label></li>
-            <li><label><input value="2" type="checkbox">Wizard</label></li>
-            <li><label><input value="3" type="checkbox">Engineer</label></li>
-        </ul>
+            <label>* How likely is that you would recommend Optima to a friend?</label>
 
-            <label>Any comments or suggestions?</label>
-        <textarea placeholder="Enter your comment here" name="comment" style="height: 50px;resize:vertical;"></textarea>
+            <ul style="list-style: none;">
+                <li class="licenter"><input name="radio-buttons" value="1" type="radio"<label>I would</label></li>
+                <li class="licenter"><input name="radio-buttons" value="2" type="radio"<label>Mayby</label></li>
+                <li class="licenter"><input name="radio-buttons" value="3" type="radio"<label>I would not</label></li>
+            </ul>
 
-        <br>
-        <button type="submit" id="submit">Submit</button>
+            <label class="left" for="preferences">What kind of education should we add?</label>
 
-    </form>
+            <ul style="list-style: none;">
+                <li><label><input value="1" type="checkbox">Pilot education</label></li>
+                <li><label><input value="2" type="checkbox">Wizard</label></li>
+                <li><label><input value="3" type="checkbox">Engineer</label></li>
+            </ul>
+
+                <label>Any comments or suggestions?</label>
+            <textarea placeholder="Enter your comment here" name="comment" style="height: 50px;resize:vertical;"></textarea>
+
+            <br>
+            <button type="submit" id="submit">Submit</button>
+
+        </form>
 
 </section>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
