@@ -58,10 +58,9 @@ section {
 }
 
 .licenter {
-    display: flex;
-    justify-content: center;
     padding: 0 10px;
     font-size: 16px;
+    text-align: justify;
 }
 
 #submit {
