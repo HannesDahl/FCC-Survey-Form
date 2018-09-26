@@ -10,7 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: lime;
+    background-color: #A9B923;
 }
 
 #title {
@@ -55,6 +55,8 @@ section {
 .licenter {
     display: flex;
     justify-content: center;
+    padding: 0 4px;
+    font-size: 16px;
 }
 
 #submit {
@@ -64,4 +66,10 @@ section {
     margin-top: 10px;
     background-color: #353535;
     color: white;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
 }
