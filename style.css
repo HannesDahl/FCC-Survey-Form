@@ -33,9 +33,10 @@ body {
 }
 
 #name, #email, #number {
-    width: 280px;
+    width: 350px;
     height: 27px;
     padding: 6px;
+    max-width: 90%;
 }
 
 section {
@@ -45,7 +46,8 @@ section {
     max-width: 100%;
     width: 600px;
     padding-bottom: 20px;
-    font-size: 20px
+    font-size: 20px;
+    max-width: 90%;
 }
 
 .line {
@@ -55,7 +57,7 @@ section {
 .licenter {
     display: flex;
     justify-content: center;
-    padding: 0 4px;
+    padding: 0 10px;
     font-size: 16px;
 }
 
@@ -72,4 +74,13 @@ section {
     flex-direction: row;
     justify-content: center;
     margin-bottom: 20px;
+    padding-top: 10px;
 }
+
+.textarea {
+    height: 100px;
+    max-width: 90%;
+    width: 400px;
+    resize: none;
+    text-align: left;
+} 
