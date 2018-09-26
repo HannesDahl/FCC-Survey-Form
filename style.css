@@ -87,3 +87,7 @@ section {
     resize: none;
     text-align: left;
 } 
+
+input {
+    border-radius: 5px;
+}
