@@ -50,7 +50,7 @@ section {
     max-width: 90%;
     border-radius: 7px;
     box-shadow: 0px 4px 20px 1px #181818;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 .line {
@@ -90,4 +90,11 @@ section {
 
 input {
     border-radius: 5px;
+}
+
+h1 {
+    color: #f1f1f1;
+    font-family: 'Fira Sans', sans-serif;;
+    margin: 1%;
+    text-shadow: 0px 0px 15px rgba(12, 19, 25, 1);
 }

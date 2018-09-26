@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
 </head>
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans|Oswald" rel="stylesheet">
 <body>
     <header>
 
@@ -21,7 +22,7 @@
 
         <form id="survey-form">
 
-            <label id="name-label">* Name:</label>
+            <label id="name-label">* Your name:</label>
 
             <br>
 
@@ -29,7 +30,7 @@
 
             <br><br>
 
-            <label id="email-label">* Email:</label>
+            <label id="email-label">* Your email:</label>
 
             <br>
 
@@ -37,15 +38,17 @@
 
             <br><br>
 
-            <label id="number-label">* Age:</label>
+            <label id="number-label">* Your birth year:</label>
 
             <br>
 
-            <input type="number" id="number" placeholder="Enter your age" min="0" max="125" class="input-field" required>
+            <input type="number" id="number" placeholder="Enter birth year" min="1903" max="2018" class="input-field" required>
 
             <br><br><div class="line"></div><br>
 
             <label>What are you?</label>
+
+            <div>
 
             <select name="optimarole" id="dropdown">
                 <option value="0" disabled value>Select an option</option>
@@ -54,6 +57,8 @@
                 <option value="3">Staff</option>
                 <option value="3">Customer</option>
             </select>
+        
+        </div>
 
             <br><br>
 
