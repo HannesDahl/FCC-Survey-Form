@@ -43,12 +43,12 @@ section {
     background-color: #f79422;
     border: none;
     margin: 10px auto;
-    max-width: 100%;
-    width: 600px;
+    max-width: 90%;
+    width: 650px;
     padding-bottom: 20px;
     font-size: 20px;
-    max-width: 90%;
-    border-radius: 7px;
+    max-width: 95%;
+    border-radius: 5px;
     box-shadow: 0px 4px 20px 1px #181818;
     margin-bottom: 5%;
 }
@@ -64,12 +64,12 @@ section {
 }
 
 #submit {
-    padding: 7px;
+    padding: 5px;
     text-align: center;
     border-radius: 5px;
-    margin-top: 10px;
-    background-color: #353535;
-    color: white;
+    margin: 10px;
+    background-color: #fff;
+    border: 1px #999 solid;
 }
 .row {
     display: flex;
@@ -85,10 +85,14 @@ section {
     width: 400px;
     resize: none;
     text-align: left;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px;
 } 
 
 input {
     border-radius: 5px;
+    margin: 5px;
 }
 
 h1 {
@@ -96,4 +100,17 @@ h1 {
     font-family: 'Fira Sans', sans-serif;;
     margin: 1%;
     text-shadow: 0px 0px 15px rgba(12, 19, 25, 1);
+}
+
+label {
+    margin: 5px;
+}
+
+select {
+    border-radius: 5px;
+    margin: 5px;
+}
+
+textarea[placeholder] {
+    text-align: center;
 }
