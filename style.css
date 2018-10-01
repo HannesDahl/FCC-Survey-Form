@@ -54,7 +54,9 @@ section {
 }
 
 .line {
-    border: 1px solid black;
+    border: 1px solid #242424;
+    width: 85%;
+    margin: auto;
 }
 
 .licenter {
